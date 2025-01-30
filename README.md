@@ -3,22 +3,23 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PNPM](https://img.shields.io/badge/pnpm-8.9.0-%23F69220)](https://pnpm.io/)
 
-Modern Nuxt3 starter template with fullstack capabilities. Features Supabase integration, Tailwind CSS styling, Element Plus components, and enterprise-grade tooling.
+Modern Nuxt3 starter template with fullstack capabilities. Features Supabase integration, UnoCSS styling，Element Plus components, and enterprise-grade tooling.
 
 ## ✨ Features
 
 - ⚡ Nuxt3 with Vue3 Composition API
 - 🗄️ Supabase v2 integration
-- 🎨 Tailwind CSS + Element Plus UI
+- 🎨 UnoCSS + Element Plus UI + Iconify icons
 - 🏪 Pinia state management with persistence
 - 📐 ESLint + Antfu code style
 - 🔒 Commitlint + Husky Git hooks
 - 🧩 Auto-animate integration
 - 📦 Optimized PNPM workspace
+- 🌈 Unified CSS engine with UnoCSS
 
 ## 🛠️ Tech Stack
 
-![Tech Stack](https://skillicons.dev/icons?i=nuxtjs,vue,tailwind,supabase,postgres,js,git)
+![Tech Stack](https://skillicons.dev/icons?i=nuxtjs,vue,supabase,postgres,js,git,unocss)
 
 ## 📦 Installation
 
@@ -88,6 +89,7 @@ pnpm run generate
 - [Nuxt DevTools](https://devtools.nuxtjs.org/)
 - [Vue DevTools](https://devtools.vuejs.org/)
 - [Supabase Studio](https://supabase.com/dashboard)
+- [Iconify](https://icon-sets.iconify.design/)
 
 ## 📄 License
 
