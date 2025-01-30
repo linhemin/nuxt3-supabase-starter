@@ -1,4 +1,5 @@
 import tailwindcss from '@tailwindcss/vite'
+import { presetUno } from 'unocss'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -13,20 +14,22 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
-  icon: {
-    serverBundle: {
-      collections: ['mdi', 'uil'],
-    },
-  },
-
   modules: [
     '@element-plus/nuxt',
-    '@nuxt/icon',
     '@pinia/nuxt',
     'pinia-plugin-persistedstate',
     '@formkit/auto-animate',
     '@nuxt/eslint',
+    '@unocss/nuxt',
   ],
+
+  unocss: {
+    presets: [
+      presetUno(),
+      // 可添加其他预设如 presetAttributify、presetIcons 等
+    ],
+    preflight: false,
+  },
 
   vite: {
     plugins: [
